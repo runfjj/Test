@@ -7,6 +7,10 @@ abstract class Duck {
 	
 	abstract void display(); 
 	
+	Duck () {}
+	Duck (Integer i) {}
+	Duck (Integer i, String s) {}
+	
 	void setColor(String color) {
 		this.color = color;
 	}
